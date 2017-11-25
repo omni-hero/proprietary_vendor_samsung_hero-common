@@ -120,7 +120,6 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/lib64/libprotobuf-cpp-fulm.so:system/lib64/libprotobuf-cpp-fulm.so \
   vendor/samsung/hero-common/proprietary/lib64/libprotobuf-cpp-N.so:system/lib64/libprotobuf-cpp-N.so \
   vendor/samsung/hero-common/proprietary/lib/libprotobuf-cpp-N.so:system/lib/libprotobuf-cpp-N.so \
-  vendor/samsung/hero-common/proprietary/bin/rild:system/bin/rild \
   vendor/samsung/hero-common/proprietary/vendor/firmware/companion_2l1_master_setfile.bin:system/vendor/firmware/companion_2l1_master_setfile.bin \
   vendor/samsung/hero-common/proprietary/vendor/firmware/companion_2l1_master_setfile_d.bin:system/vendor/firmware/companion_2l1_master_setfile_d.bin \
   vendor/samsung/hero-common/proprietary/vendor/firmware/companion_2l1_mode_setfile.bin:system/vendor/firmware/companion_2l1_mode_setfile.bin \
@@ -186,19 +185,17 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/lib/omx/libOMX.Exynos.VP9.Decoder.so:system/lib/omx/libOMX.Exynos.VP9.Decoder.so \
   vendor/samsung/hero-common/proprietary/lib/omx/libOMX.Exynos.VP9.Encoder.so:system/lib/omx/libOMX.Exynos.VP9.Encoder.so \
   vendor/samsung/hero-common/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
-  vendor/samsung/hero-common/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-  vendor/samsung/hero-common/proprietary/lib/libril.so:system/lib/libril.so \
   vendor/samsung/hero-common/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
   vendor/samsung/hero-common/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
   vendor/samsung/hero-common/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-  vendor/samsung/hero-common/proprietary/lib64/libreference-ril.so:system/lib64/libreference-ril.so \
-  vendor/samsung/hero-common/proprietary/lib64/libril.so:system/lib64/libril.so \
   vendor/samsung/hero-common/proprietary/lib64/libsec-ril.so:system/lib64/libsec-ril.so \
   vendor/samsung/hero-common/proprietary/lib64/libsec-ril-dsds.so:system/lib64/libsec-ril-dsds.so \
   vendor/samsung/hero-common/proprietary/lib64/libsecnativefeature.so:system/lib64/libsecnativefeature.so \
   vendor/samsung/hero-common/proprietary/lib64/libhr.so:system/lib64/libhr.so \
   vendor/samsung/hero-common/proprietary/etc/lhd.conf:system/etc/lhd.conf \
   vendor/samsung/hero-common/proprietary/bin/lhd:system/bin/lhd \
+  vendor/samsung/hero-common/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
+  vendor/samsung/hero-common/proprietary/lib64/libreference-ril.so:system/lib64/libreference-ril.so \
   vendor/samsung/hero-common/proprietary/bin/bcm_sensorhub_a1.patch:system/bin/bcm_sensorhub_a1.patch \
   vendor/samsung/hero-common/proprietary/lib/hw/sensorhubs.universal8890.so:system/lib/hw/sensorhubs.universal8890.so \
   vendor/samsung/hero-common/proprietary/lib/hw/sensors.universal8890.so:system/lib/hw/sensors.universal8890.so \
