@@ -18,7 +18,8 @@ LOCAL_PATH := $(call my-dir)
 
 ifneq ($(filter exynos8890, $(TARGET_SOC)),)
 include $(CLEAR_VARS)
-LOCAL_SRC_FILES            := apps/HealthService/HealthService.apk
+LOCAL_MODULE               := HealthService
+LOCAL_SRC_FILES            := apps/$(LOCAL_MODULE)/$(LOCAL_MODULE).apk
 LOCAL_MODULE_TAGS          := optional
 LOCAL_MODULE_CLASS         := APPS
 LOCAL_MODULE_SUFFIX        := $(COMMON_ANDROID_PACKAGE_SUFFIX)
