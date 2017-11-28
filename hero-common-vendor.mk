@@ -18,4 +18,5 @@
 PRODUCT_PACKAGES += \
    libGLES_mali
 
+include $(LOCAL_PATH)/apps/Android.mk
 $(call inherit-product, vendor/samsung/hero-common/hero-common-vendor-blobs.mk)

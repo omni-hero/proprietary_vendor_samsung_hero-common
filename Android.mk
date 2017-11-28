@@ -16,9 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-include $(LOCAL_PATH)/apps/Android.mk
 ifneq ($(filter exynos8890, $(TARGET_SOC)),)
-
 include $(CLEAR_VARS)
 LOCAL_MODULE := libGLES_mali
 LOCAL_MODULE_OWNER := samsung
