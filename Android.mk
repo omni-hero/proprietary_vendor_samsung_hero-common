@@ -18,6 +18,17 @@ LOCAL_PATH := $(call my-dir)
 
 ifneq ($(filter exynos8890, $(TARGET_SOC)),)
 include $(CLEAR_VARS)
+LOCAL_SRC_FILES            := apps/HealthService/HealthService.apk
+LOCAL_MODULE_TAGS          := optional
+LOCAL_MODULE_CLASS         := APPS
+LOCAL_MODULE_SUFFIX        := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_PRIVILEGED_MODULE    := false
+LOCAL_BUILT_MODULE_STEM    := package.apk
+LOCAL_CERTIFICATE          := PRESIGNED
+LOCAL_DEX_PREOPT           := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libGLES_mali
 LOCAL_MODULE_OWNER := samsung
 LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/egl/libGLES_mali.so
