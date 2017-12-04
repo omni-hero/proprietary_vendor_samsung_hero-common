@@ -247,4 +247,50 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
   vendor/samsung/hero-common/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
   vendor/samsung/hero-common/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
-  vendor/samsung/hero-common/proprietary/sbin/cbd:root/sbin/cbd
+  vendor/samsung/hero-common/proprietary/sbin/cbd:root/sbin/cbd \
+  vendor/samsung/hero-common/proprietary/lib/libsomx263dsw.so:system/lib/libsomx263dsw.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomx264dsw.so:system/lib/libsomx264dsw.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxaacd.so:system/lib/libsomxaacd.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxadpcmd.so:system/lib/libsomxadpcmd.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxamrd.so:system/lib/libsomxamrd.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxcmn.so:system/lib/libsomxcmn.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxcore.so:system/lib/libsomxcore.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxevrcd.so:system/lib/libsomxevrcd.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxevrce.so:system/lib/libsomxevrce.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxflacd.so:system/lib/libsomxflacd.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxhevcdsw.so:system/lib/libsomxhevcdsw.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxmp3d.so:system/lib/libsomxmp3d.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxmp43d.so:system/lib/libsomxmp43d.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxmp4vdsw.so:system/lib/libsomxmp4vdsw.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxnaace.so:system/lib/libsomxnaace.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxqcelpd.so:system/lib/libsomxqcelpd.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxqcelpe.so:system/lib/libsomxqcelpe.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxsr263d.so:system/lib/libsomxsr263d.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxvc1dsw.so:system/lib/libsomxvc1dsw.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxvp8d.so:system/lib/libsomxvp8d.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxwmad.so:system/lib/libsomxwmad.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxwmv7d.so:system/lib/libsomxwmv7d.so \
+  vendor/samsung/hero-common/proprietary/lib/libsomxwmv8d.so:system/lib/libsomxwmv8d.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomx263dsw.so:system/lib64/libsomx263dsw.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomx264dsw.so:system/lib64/libsomx264dsw.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxaacd.so:system/lib64/libsomxaacd.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxadpcmd.so:system/lib64/libsomxadpcmd.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxamrd.so:system/lib64/libsomxamrd.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxcmn.so:system/lib64/libsomxcmn.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxcore.so:system/lib64/libsomxcore.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxevrcd.so:system/lib64/libsomxevrcd.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxevrce.so:system/lib64/libsomxevrce.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxflacd.so:system/lib64/libsomxflacd.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxhevcdsw.so:system/lib64/libsomxhevcdsw.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxmp3d.so:system/lib64/libsomxmp3d.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxmp43d.so:system/lib64/libsomxmp43d.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxmp4vdsw.so:system/lib64/libsomxmp4vdsw.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxnaace.so:system/lib64/libsomxnaace.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxqcelpd.so:system/lib64/libsomxqcelpd.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxqcelpe.so:system/lib64/libsomxqcelpe.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxsr263d.so:system/lib64/libsomxsr263d.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxvc1dsw.so:system/lib64/libsomxvc1dsw.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxvp8d.so:system/lib64/libsomxvp8d.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxwmad.so:system/lib64/libsomxwmad.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxwmv7d.so:system/lib64/libsomxwmv7d.so \
+  vendor/samsung/hero-common/proprietary/lib64/libsomxwmv8d.so:system/lib64/libsomxwmv8d.so 
