@@ -293,4 +293,28 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/lib64/libsomxvp8d.so:system/lib64/libsomxvp8d.so \
   vendor/samsung/hero-common/proprietary/lib64/libsomxwmad.so:system/lib64/libsomxwmad.so \
   vendor/samsung/hero-common/proprietary/lib64/libsomxwmv7d.so:system/lib64/libsomxwmv7d.so \
-  vendor/samsung/hero-common/proprietary/lib64/libsomxwmv8d.so:system/lib64/libsomxwmv8d.so 
+  vendor/samsung/hero-common/proprietary/lib64/libsomxwmv8d.so:system/lib64/libsomxwmv8d.so \
+vendor/samsung/hero-common/proprietary/lib64/libarac.so:system/lib64/libarac.so \
+vendor/samsung/hero-common/proprietary/lib64/libExynosOMX_Core.so:system/lib64/libExynosOMX_Core.so \
+vendor/samsung/hero-common/proprietary/lib64/libExynosOMX_Resourcemanager.so:system/lib64/libExynosOMX_Resourcemanager.so \
+vendor/samsung/hero-common/proprietary/lib64/libsavsac.so:system/lib64/libsavsac.so \
+vendor/samsung/hero-common/proprietary/lib64/libsavscmn.so:system/lib64/libsavscmn.so \
+vendor/samsung/hero-common/proprietary/lib64/libsavsff.so:system/lib64/libsavsff.so \
+vendor/samsung/hero-common/proprietary/lib64/libsavsmeta.so:system/lib64/libsavsmeta.so \
+vendor/samsung/hero-common/proprietary/lib64/libsavsvc.so:system/lib64/libsavsvc.so \
+vendor/samsung/hero-common/proprietary/lib64/libsnaace.so:system/lib64/libsnaace.so \
+vendor/samsung/hero-common/proprietary/lib64/libsnamrnb.so:system/lib64/libsnamrnb.so \
+vendor/samsung/hero-common/proprietary/lib64/libsnamrwb.so:system/lib64/libsnamrwb.so \
+vendor/samsung/hero-common/proprietary/lib64/libsxqk.so:system/lib64/libsxqk.so \
+vendor/samsung/hero-common/proprietary/lib/libarac.so:system/lib/libarac.so \
+vendor/samsung/hero-common/proprietary/lib/libExynosOMX_Core.so:system/lib/libExynosOMX_Core.so \
+vendor/samsung/hero-common/proprietary/lib/libExynosOMX_Resourcemanager.so:system/lib/libExynosOMX_Resourcemanager.so \
+vendor/samsung/hero-common/proprietary/lib/libsavsac.so:system/lib/libsavsac.so \
+vendor/samsung/hero-common/proprietary/lib/libsavscmn.so:system/lib/libsavscmn.so \
+vendor/samsung/hero-common/proprietary/lib/libsavsff.so:system/lib/libsavsff.so \
+vendor/samsung/hero-common/proprietary/lib/libsavsmeta.so:system/lib/libsavsmeta.so \
+vendor/samsung/hero-common/proprietary/lib/libsavsvc.so:system/lib/libsavsvc.so \
+vendor/samsung/hero-common/proprietary/lib/libsnaace.so:system/lib/libsnaace.so \
+vendor/samsung/hero-common/proprietary/lib/libsnamrnb.so:system/lib/libsnamrnb.so \
+vendor/samsung/hero-common/proprietary/lib/libsnamrwb.so:system/lib/libsnamrwb.so \
+vendor/samsung/hero-common/proprietary/lib/libsxqk.so:system/lib/libsxqk.so 
