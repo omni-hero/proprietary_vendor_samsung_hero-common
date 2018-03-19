@@ -110,11 +110,6 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/lib64/libbauthtzcommon.so:system/lib64/libbauthtzcommon.so \
   vendor/samsung/hero-common/proprietary/lib64/libegis_fp_normal_sensor_test.so:system/lib64/libegis_fp_normal_sensor_test.so \
   vendor/samsung/hero-common/proprietary/lib64/libsynaFpSensorTestNwd.so:system/lib64/libsynaFpSensorTestNwd.so \
-  vendor/samsung/hero-common/proprietary/bin/gps.cer:system/bin/gps.cer \
-  vendor/samsung/hero-common/proprietary/bin/gpsd:system/bin/gpsd \
-  vendor/samsung/hero-common/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
-  vendor/samsung/hero-common/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
-  vendor/samsung/hero-common/proprietary/lib64/libwrappergps.so:system/lib64/libwrappergps.so \
   vendor/samsung/hero-common/proprietary/lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
   vendor/samsung/hero-common/proprietary/lib64/libfloatingfeature.so:system/lib64/libfloatingfeature.so \
   vendor/samsung/hero-common/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
@@ -197,7 +192,6 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/lib64/libhr.so:system/lib64/libhr.so \
   vendor/samsung/hero-common/proprietary/etc/lhd.conf:system/etc/lhd.conf \
   vendor/samsung/hero-common/proprietary/bin/lhd:system/bin/lhd \
-  vendor/samsung/hero-common/proprietary/etc/init/hero.gps.rc:system/etc/init/hero.gps.rc \
   vendor/samsung/hero-common/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
   vendor/samsung/hero-common/proprietary/lib64/libreference-ril.so:system/lib64/libreference-ril.so \
   vendor/samsung/hero-common/proprietary/bin/bcm_sensorhub_a1.patch:system/bin/bcm_sensorhub_a1.patch \
