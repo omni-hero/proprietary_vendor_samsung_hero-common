@@ -159,6 +159,12 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/lib/hw/nfc_nci.universal8890.so:system/lib/hw/nfc_nci.universal8890.so \
   vendor/samsung/hero-common/proprietary/lib64/hw/nfc_nci.universal8890.so:system/lib64/hw/nfc_nci.universal8890.so \
   vendor/samsung/hero-common/proprietary/vendor/firmware/nfc/sec_s3nrn81_firmware.bin:system/vendor/firmware/nfc/sec_s3nrn81_firmware.bin \
+  vendor/samsung/hero-common/proprietary/lib64/libExynosOMX_Core.so:system/lib64/libExynosOMX_Core.so \
+  vendor/samsung/hero-common/proprietary/lib64/libExynosOMX_Resourcemanager.so:system/lib64/libExynosOMX_Resourcemanager.so \
+  vendor/samsung/hero-common/proprietary/lib64/libstagefrighthw.so:system/lib64/libstagefrighthw.so \
+  vendor/samsung/hero-common/proprietary/lib/libExynosOMX_Core.so:system/lib/libExynosOMX_Core.so \
+  vendor/samsung/hero-common/proprietary/lib/libExynosOMX_Resourcemanager.so:system/lib/libExynosOMX_Resourcemanager.so \
+  vendor/samsung/hero-common/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
   vendor/samsung/hero-common/proprietary/lib64/omx/libOMX.Exynos.AVC.Decoder.so:system/lib64/omx/libOMX.Exynos.AVC.Decoder.so \
   vendor/samsung/hero-common/proprietary/lib64/omx/libOMX.Exynos.AVC.Encoder.so:system/lib64/omx/libOMX.Exynos.AVC.Encoder.so \
   vendor/samsung/hero-common/proprietary/lib64/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib64/omx/libOMX.Exynos.HEVC.Decoder.so \
