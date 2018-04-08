@@ -17,7 +17,6 @@
 PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/lib/libcsc.so:system/lib/libcsc.so \
   vendor/samsung/hero-common/proprietary/lib64/libcsc.so:system/lib64/libcsc.so \
-  vendor/samsung/hero-common/proprietary/lib64/libhwgpschannelclient.so:system/lib64/libhwgpschannelclient.so \
   vendor/samsung/hero-common/proprietary/etc/firmware/clearwaterc-dsp2-tx-nb.wmfw:system/etc/firmware/clearwaterc-dsp2-tx-nb.wmfw \
   vendor/samsung/hero-common/proprietary/etc/firmware/clearwaterc-dsp2-tx-swb.wmfw:system/etc/firmware/clearwaterc-dsp2-tx-swb.wmfw \
   vendor/samsung/hero-common/proprietary/etc/firmware/clearwaterc-dsp2-tx-wb.wmfw:system/etc/firmware/clearwaterc-dsp2-tx-wb.wmfw \
@@ -148,6 +147,8 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/vendor/firmware/setfile_imx260.bin:system/vendor/firmware/setfile_imx260.bin \
   vendor/samsung/hero-common/proprietary/vendor/firmware/setfile_imx260_d.bin:system/vendor/firmware/setfile_imx260_d.bin \
   vendor/samsung/hero-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+  vendor/samsung/hero-common/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
   vendor/samsung/hero-common/proprietary/vendor/lib/libSEF.so:system/vendor/lib/libSEF.so \
   vendor/samsung/hero-common/proprietary/vendor/lib64/libSEF.so:system/vendor/lib64/libSEF.so \
   vendor/samsung/hero-common/proprietary/app/FFFFFFFF000000000000000000000001.drbin:system/app/FFFFFFFF000000000000000000000001.drbin \
