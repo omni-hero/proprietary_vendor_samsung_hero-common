@@ -197,7 +197,6 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/hero-common/proprietary/lib64/libsec-ril-dsds.so:system/lib64/libsec-ril-dsds.so \
   vendor/samsung/hero-common/proprietary/lib64/libsecnativefeature.so:system/lib64/libsecnativefeature.so \
   vendor/samsung/hero-common/proprietary/lib64/libhr.so:system/lib64/libhr.so \
-  vendor/samsung/hero-common/proprietary/etc/lhd.conf:system/etc/lhd.conf \
   vendor/samsung/hero-common/proprietary/bin/lhd:system/bin/lhd \
   vendor/samsung/hero-common/proprietary/etc/init/hero.gps.rc:system/etc/init/hero.gps.rc \
   vendor/samsung/hero-common/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \

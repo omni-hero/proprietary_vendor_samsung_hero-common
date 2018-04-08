@@ -30,7 +30,7 @@ chown gps system /sys/devices/platform/bbd.0/shmd
 service lhd /system/bin/lhd /system/etc/lhd.conf
     class main
     user gps
-    group system inet net_raw
+    group system inet net_raw wakelock
     ioprio be 0
 
 # GPS
@@ -39,7 +39,6 @@ service gpsd /system/bin/gpsd -c /system/etc/gps.xml
     user gps
     group system inet net_raw wakelock
     ioprio be 0
-    seclabel u:r:gpsd:s0
     disabled
 
 on property:init.svc.bootanim=stopped
